@@ -143,7 +143,7 @@ h3 { font-size: 1.25rem; font-weight: 700; letter-spacing: -0.015em; }
 }
 
 .nav-logo { display: flex; align-items: center; }
-.logo-img { height: 40px; width: auto; }
+.logo-img { height: 60px; width: auto; }
 
 .nav-center {
   display: flex;
@@ -737,7 +737,7 @@ h3 { font-size: 1.25rem; font-weight: 700; letter-spacing: -0.015em; }
   gap: 40px;
 }
 
-.footer-brand .logo-img { height: 34px; margin-bottom: 12px; }
+.footer-brand .logo-img { height: 48px; margin-bottom: 12px; }
 .footer-brand p {
   font-size: 0.88rem;
   color: var(--gray-400);
@@ -840,7 +840,7 @@ h3 { font-size: 1.25rem; font-weight: 700; letter-spacing: -0.015em; }
   .hamburger { display: flex; }
   .navbar { padding: 16px 0; }
   .navbar.scrolled { padding: 12px 0; }
-  .logo-img { height: 32px; }
+  .logo-img { height: 52px; }
 
   /* ---- Mobile Menu ---- */
   .mobile-menu { font-size: 1.2rem; gap: 28px; }
