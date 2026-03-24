@@ -815,10 +815,9 @@ h3 { font-size: 1.25rem; font-weight: 700; letter-spacing: -0.015em; }
   .hero-img-wrap { height: 440px; }
 
   .metrics-grid { grid-template-columns: repeat(2, 1fr); }
-  .metric { border-bottom: 1px solid var(--gray-200); }
-  .metric:nth-child(2) { border-right: none; }
-  .metric:nth-child(3) { border-bottom: none; }
-  .metric:nth-child(4) { border-right: none; border-bottom: none; }
+  .metric { border-right: 1px solid var(--gray-200); border-bottom: 1px solid var(--gray-200); }
+  .metric:nth-child(2n) { border-right: none; }
+  .metric:last-child { grid-column: 1 / -1; border-right: none; border-bottom: none; }
 
   .process-split { gap: 60px; }
 }
