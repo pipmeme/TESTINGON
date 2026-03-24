@@ -335,6 +335,10 @@ h3 { font-size: 1.25rem; font-weight: 700; letter-spacing: -0.015em; }
   flex-shrink: 0;
 }
 
+.hero-badge-text {
+  text-align: left;
+}
+
 .hero-badge-text strong {
   display: block;
   font-size: 1.1rem;
@@ -344,9 +348,11 @@ h3 { font-size: 1.25rem; font-weight: 700; letter-spacing: -0.015em; }
 }
 
 .hero-badge-text span {
+  display: block;
   font-size: 0.78rem;
   color: var(--gray-400);
   font-weight: 500;
+  white-space: nowrap;
 }
 
 
@@ -851,11 +857,12 @@ h3 { font-size: 1.25rem; font-weight: 700; letter-spacing: -0.015em; }
   .hero-visual { order: -1; }
   .hero-img-wrap { height: 280px; border-radius: 20px; }
   .hero-badge {
-    bottom: -14px;
+    bottom: -18px;
     left: 50%;
     transform: translateX(-50%);
     min-width: auto;
-    padding: 12px 16px;
+    width: max-content;
+    padding: 12px 20px;
   }
   .hero-badge-icon { width: 36px; height: 36px; font-size: 1rem; }
   .hero-badge-text strong { font-size: 1rem; }
